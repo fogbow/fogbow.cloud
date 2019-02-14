@@ -6,7 +6,7 @@ before_install:
   - echo "Host github.com" >> ~/.ssh/config
   - echo "  IdentityFile ~/.ssh/publish-key" >> ~/.ssh/config
   
-  - git remote set-url origin git@github.com:fogbow/fogbowcloud.org.git
+  - git remote set-url origin git@github.com:fogbow/fogbow.cloud.git
   
   - git fetch origin -f master
   - git fetch origin -f gh-pages
